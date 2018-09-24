@@ -21,7 +21,9 @@ public class Homework3 {
     public static void smoosh(int[] ints) {
         // Fill in your solution here.  (Ours is twelve lines long, not counting
         // blank lines or lines already present in this file.)
-        Stack stck = new Stack();
+        // Written by Arnesh Regmi
+
+        Stack stck = new Stack(); // using stack data structures to keep track of integers
 
 
         for (int i = 0; i < ints.length - 1; ){
